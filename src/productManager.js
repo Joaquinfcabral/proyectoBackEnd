@@ -10,7 +10,7 @@ class ProductManager {
     }
 
     generateId() {
-        // Incrementar el último ID y devolverlo
+
         lastProductId++;
         return lastProductId;
     }
@@ -31,7 +31,7 @@ class ProductManager {
             await this.loadProductsFromFile();
 
             const product = {
-                id: this.generateId(), // Generar el ID automáticamente
+                id: this.generateId(), 
                 title: data.title,
                 description: data.description,
                 price: data.price,
