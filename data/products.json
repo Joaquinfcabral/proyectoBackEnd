@@ -1,0 +1,16 @@
+    [
+        {
+            "id": 1,
+            "title": "Iphone 13",
+            "description": "No es distinto al 14 pero es más viejo",
+            "price": "$800",
+            "thumbnail": "ruta-a-imagen-1"
+        },
+        {
+            "id" : 2,
+            "title": "Iphone 14",
+            "description": "Nuevo Iphone 14, lo mejor de Apple",
+            "price": "$1100",
+            "thumbnail": "ruta-a-imagen-2"
+        }
+    ]
